@@ -1,0 +1,101 @@
+/* Feedback.css */
+
+.containerform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 104vh;
+    background: linear-gradient(109.6deg, rgb(156, 252, 248) 11.2%, rgb(110, 123, 251) 91.1%);
+    zoom:90%;
+}
+.wrapperform {
+    display: flex;
+    background-color: #b8f0f6;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    height: 550px;
+    margin-top: 0;
+}
+
+.company-infoform {
+    flex: 1;
+    padding: 80px;
+    background: linear-gradient(135deg,rgb(110, 123, 251)45%, #a1caba 45%, #93c9d3 55%, #b8f0f6 35%);
+    color: #121010;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.headingform {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.listform {
+    list-style: none;
+    padding: 0;
+}
+
+.listitemform {
+    margin-bottom: 10px;
+}
+
+.listitemform svg {
+    margin-right: 10px;
+}
+
+.contactform {
+    flex: 2;
+    width: 500px;
+    padding: 20px;
+}
+
+.loveform {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #093d96;
+    margin-left: 30px;
+}
+
+.formelement {
+    max-width: 690px;
+}
+
+.labelelement {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.inputelement,
+.textareaelement {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.fullform {
+    width: 100%;
+}
+
+.button147form {
+    background-color: #254466;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 30px;
+    transition: background-color 0.3s;
+}
+
+.button147form:hover {
+    background-color: #0056b3;
+}
