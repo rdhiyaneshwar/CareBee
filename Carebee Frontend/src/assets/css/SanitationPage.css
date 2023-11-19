@@ -1,0 +1,167 @@
+/* SanitationPage.css */
+
+.sanita{
+    background-color: #abcdef;
+    background-size: 100%;
+  }
+  
+  .bgf1 {
+    background: linear-gradient(109.6deg, rgb(156, 252, 248) 11.2%, rgb(110, 123, 251) 91.1%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  .bgf2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  .bgf3 {
+    animation-duration:5s;
+  }
+  
+  .slick-slider { 
+     gap: 60px;
+     width: 45%;
+     margin-left: 120px;
+    }
+    
+    .slick-dots {
+      text-align: center;
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+    
+    .slick-dots li {
+      display: inline-block;
+      margin: 0 5px;
+      gap: 60px;
+    }
+    
+    .slick-dots button {
+      font-size: 14px;
+      background-color: #ddd;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    
+    .slick-dots button:hover {
+      background-color: #72bcd9; 
+    }
+    .cleanliness-card {
+      background-color: #e4e9ef;
+      border-radius: 10px;
+      padding-left: 30px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      width: 45%; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;  
+    }
+    .cleanliness-card h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    
+    .cleanliness-card p {
+      font-size: 14px;
+      color: #555;
+    }
+    .sanitation-page {
+      text-align: center;
+      padding: 40px;
+    }
+    
+    .san {
+      color: #000080;
+      font-style: italic;
+      margin-top: 40px;
+      margin-right: 340px;
+      margin-bottom: 10px;
+      font-size: 24px; 
+    }
+    
+    .san1 {
+      color: #000080;
+      font-style: italic;
+      margin-top: 70px;
+      font-size: 24px; 
+    }
+    
+    .step-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 100px;
+      margin-top: 50px;
+    }
+    
+    .stepsnew {
+      background-color: #ade6d3; 
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      box-shadow: 0 0 10px #00ff00;
+      cursor: pointer;
+      transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; 
+    }
+    
+    .stepsnew:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 20px #00ff00; 
+    }
+    
+    .iconnew {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    
+    .stepsnew h2 {
+      font-size: 16px;
+    }
+    
+.popup {
+  position: fixed;
+  font-family: 'Maven Pro', sans-serif;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  font-family: 'Maven Pro', sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transform: rotate(0deg);
+  transition: transform 2s ease-in-out;
+  width: 1000px; 
+  height: 200px; 
+}
+
+.popup.visible {
+  transform: rotate(360deg);
+}
+
+.sanpop{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+}
